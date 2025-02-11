@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-image: url(holmes4.jpg);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid rgb(198, 171, 171);
+    display: inline-block;
+    padding: 10px;
+}
+
+.search-container {
+    margin: 20px auto;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 200px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.content h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content .text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content .text-image-container p {
+    max-width: 600px;
+}
+
+.small-image {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.rectangle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rectangle {
+    padding: 15px;
+    background-color: rgb(77, 50, 28);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.curiosities {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.curiosities h2 {
+    text-align: center;
+}
+
+.curiosity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.curiosity-item h4 {
+    text-align: center;
+}
+
+.curiosity-item .text-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.curiosity-item img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.curiosity-item.right .text-image-container {
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+.purchase-section {
+    margin-top: 20px;
+}
+
+.purchase-section a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 12, 12);
+    text-decoration: none;
+}
